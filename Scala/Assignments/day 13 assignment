@@ -1,0 +1,93 @@
+1.Area of rectangle
+
+scala> def area(l:Int,b:Int):Int={l*b}
+def area(l: Int, b: Int): Int
+
+scala> area(12,8)
+val res18: Int = 96
+
+2.Prime Numbers within a range
+
+scala> def cprime(n:Int):Boolean={ if (n<=1) false else if (n==2) true else !(2 until n).exists(i => n % i == 0)}
+def cprime(n: Int): Boolean
+
+scala> for(i<-1 to 10 if cprime(i))
+     | println(i)
+2
+3
+5
+7
+3.Printing even numbers from 1 to 20
+scala> for(i<-1 to 20 if (i%2==0))println(i)
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+
+4 . Write a scala program which produces all values from an array after removing duplicates.
+
+scala> val arr = Array(1, 2, 2, 3, 4, 4, 5)
+arr: Array[Int] = Array(1, 2, 2, 3, 4, 4, 5)
+
+scala> val uniqueArr = arr.distinct
+uniqueArr: Array[Int] = Array(1, 2, 3, 4, 5)
+
+scala> uniqueArr.foreach(println)
+1
+2
+3
+4
+5
+5 . Create a map of prices for a number of shopping items you want,now create another map from it with same key
+
+scala> val p=Map("Apple"->50,"Banana"->40,"Orange"->30)
+val p: scala.collection.immutable.Map[String,Int] = Map(Apple -> 50, Banana -> 40, Orange -> 30)
+
+scala>  val discountedPrices = p.map { case (k,v) => k -> v * 0.9 }
+val discountedPrices: scala.collection.immutable.Map[String,Double] = Map(Apple -> 45.0, Banana -> 36.0, Orange -> 27.0)
+
+scala> discountedPrices.foreach(println)
+(Apple,45.0)
+(Banana,36.0)
+(Orange,27.0)
+
+
+6 . Write a function minmax(values:Array[Int]) which returns a pair of minimum and maximum values of an array 
+
+scala> def minmax(values: Array[Int]): (Int, Int) = (values.min, values.max)
+minmax: (values: Array[Int])(Int, Int)
+
+scala> val nums = Array(5, 2, 9, 1, 7)
+nums: Array[Int] = Array(5, 2, 9, 1, 7)
+
+scala> val mm = minmax(nums)
+mm: (Int, Int) = (1,9)
+
+scala> println(mm)
+(1,9)
+
+7 . Repeat the above exercise as a procedure which print the min and max values of an array
+
+scala> def minmax(values: Array[Int]): (Int, Int) = (values.min, values.max)
+minmax: (values: Array[Int])(Int, Int)
+
+scala> val nums = Array(5, 2, 9, 1, 7)
+nums: Array[Int] = Array(5, 2, 9, 1, 7)
+
+scala> val mm = minmax(nums)
+mm: (Int, Int) = (1,9)
+
+scala> println(mm)
+(1,9)
+
+
+
+
+
+
