@@ -1,0 +1,2 @@
+transaction_id,customer_id,product_category,item_name,quantity,unit_price,sale_date,store_location,payment_method,Copy of transaction_id,Copy of customer_id,Copy of product_category,Copy of item_name,Copy of quantity,Copy of unit_price,Copy of sale_date,Copy of store_location,Copy of payment_method,TotalAmount,ErrorCode,ErrorColumn
+TXN_1030,148,Apparel,Smartphone,2,850.00,2024/13/45,Los Angeles,PayPal,,,,,,,,,,,-1071607681,32

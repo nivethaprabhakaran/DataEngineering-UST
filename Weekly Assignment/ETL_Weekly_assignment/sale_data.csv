@@ -1,0 +1,15 @@
+transaction_id,customer_id,product_category,item_name,quantity,unit_price,sale_date,store_location,payment_method
+TXN_1000,138,Electronics,Desk Lamp,4,779.88,2024-03-12,  Miami  ,Cash
+TXN_1001,128,Books,Hardcover Novel,1,224.88,2024-03-10,Houston,Credit Card
+TXN_1002,114,Electronics,Laptop,2,1129.44,2024-03-10,New York,
+TXN_1003,142,Books,Wall Art,1,1145.41,2024-03-05,  Miami  ,Credit Card
+TXN_1004,107,Books,Laptop,4,1099.11,2024-03-07,New York,
+TXN_1005,120,Books,Laptop,2,453.64,2024-03-04,Chicago,Credit Card
+TXN_1010,110,Books,Hardcover Novel,-5,1156.89,2024-03-07,New York,PayPal
+TXN_1020,129,Books,Cotton T-Shirt,4,,2024-03-03,Houston,Credit Card
+TXN_1030,148,Apparel,Smartphone,2,850.00,2024/13/45,Los Angeles,PayPal
+TXN_1000,138,Electronics,Desk Lamp,4,779.88,2024-03-12,  Miami  ,Cash
+TXN_1001,128,Books,Hardcover Novel,1,224.88,2024-03-10,Houston,Credit Card
+TXN_1031,105,Home Decor,Wall Art,3,45.50,2024-03-08,Chicago,Cash
+TXN_1032,112,Electronics,Smartphone,1,999.99,2024-03-09,  Miami  ,PayPal
+TXN_1033,140,Apparel,Cotton T-Shirt,2,25.00,2024-03-11,Houston,Credit Card
